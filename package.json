@@ -11,6 +11,10 @@
     "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhdigital/NewsScraper.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
