@@ -16,15 +16,15 @@ const Search = props =>
             <form>
               <div className="form-group">
                 <label htmlFor="topic">Topic</label>
-                <input onChange={props.handleTopicChange} type="text" className="form-control" id="topic" aria-describedby="emailHelp" />
+                <input onChange={props.handleTopicChange} type="text" placeholder="type topic as Milky way" className="form-control" id="topic" aria-describedby="emailHelp" />
               </div>
               <div className="form-group">
                 <label htmlFor="start-year">Start Year</label>
-                <input onChange={props.handleStartYearChange} type="text" className="form-control" id="start-year" />
+                <input onChange={props.handleStartYearChange} type="text" placeholder="type year as 1950"className="form-control" id="start-year" />
               </div>
               <div className="form-group">
                 <label htmlFor="end-year">End Year</label>
-                <input onChange={props.handleEndYearChange} type="text" className="form-control" id="end-year" />
+                <input onChange={props.handleEndYearChange} type="text" placeholder="type year as 1970" className="form-control" id="end-year" />
               </div>
               <button onClick={props.handleFormSubmit} type="submit" className="btn btn-primary">Submit</button>
             </form>
