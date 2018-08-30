@@ -4,7 +4,7 @@ New York Times React App
 ### Synopsis
 ***
 This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and the backend implemented with Node.js and Express. This is a React.js app that allows users to search for New York Times articles.
-[Here is the live version](https://sleepy-brushlands-50849.herokuapp.com/)
+[Here is the live version](https://nyt-search-mern-stack.herokuapp.com/)
 
 ### User interface
 
